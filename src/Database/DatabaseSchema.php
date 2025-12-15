@@ -1,12 +1,12 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database;
+namespace OmrGz\MigrationsGenerator\Database;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Schema as SchemaFacade;
-use KitLoong\MigrationsGenerator\Schema\Schema;
-use KitLoong\MigrationsGenerator\Support\CheckLaravelVersion;
-use KitLoong\MigrationsGenerator\Support\TableName;
+use OmrGz\MigrationsGenerator\Schema\Schema;
+use OmrGz\MigrationsGenerator\Support\CheckLaravelVersion;
+use OmrGz\MigrationsGenerator\Support\TableName;
 
 /**
  * @phpstan-type SchemaTable array{

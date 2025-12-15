@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\MySQL8;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\MySQL8;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;

@@ -1,19 +1,19 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests;
+namespace OmrGz\MigrationsGenerator\Tests;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnModifier;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\SchemaBuilder;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Property\TableProperty;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\SchemaBlueprint;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\TableBlueprint;
-use KitLoong\MigrationsGenerator\Migration\Enum\MigrationFileType;
-use KitLoong\MigrationsGenerator\Migration\Writer\MigrationWriter;
-use KitLoong\MigrationsGenerator\Setting;
-use KitLoong\MigrationsGenerator\Support\TableName;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnModifier;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\SchemaBuilder;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Property\TableProperty;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\SchemaBlueprint;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\TableBlueprint;
+use OmrGz\MigrationsGenerator\Migration\Enum\MigrationFileType;
+use OmrGz\MigrationsGenerator\Migration\Writer\MigrationWriter;
+use OmrGz\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Support\TableName;
 use Mockery\MockInterface;
 
 class MigrationWriterTest extends TestCase

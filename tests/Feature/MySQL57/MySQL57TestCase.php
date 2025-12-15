@@ -1,10 +1,10 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\MySQL57;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\MySQL57;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-use KitLoong\MigrationsGenerator\Tests\Feature\FeatureTestCase;
+use OmrGz\MigrationsGenerator\Tests\Feature\FeatureTestCase;
 use PDO;
 
 abstract class MySQL57TestCase extends FeatureTestCase

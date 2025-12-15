@@ -1,16 +1,16 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database;
+namespace OmrGz\MigrationsGenerator\Database;
 
 use Illuminate\Support\Collection;
-use KitLoong\MigrationsGenerator\Database\Models\PgSQL\PgSQLProcedure;
-use KitLoong\MigrationsGenerator\Database\Models\SQLSrv\SQLSrvForeignKey;
-use KitLoong\MigrationsGenerator\Database\Models\SQLSrv\SQLSrvTable;
-use KitLoong\MigrationsGenerator\Database\Models\SQLSrv\SQLSrvView;
-use KitLoong\MigrationsGenerator\Repositories\Entities\ProcedureDefinition;
-use KitLoong\MigrationsGenerator\Repositories\SQLSrvRepository;
-use KitLoong\MigrationsGenerator\Schema\Models\Table;
-use KitLoong\MigrationsGenerator\Schema\Models\View;
+use OmrGz\MigrationsGenerator\Database\Models\PgSQL\PgSQLProcedure;
+use OmrGz\MigrationsGenerator\Database\Models\SQLSrv\SQLSrvForeignKey;
+use OmrGz\MigrationsGenerator\Database\Models\SQLSrv\SQLSrvTable;
+use OmrGz\MigrationsGenerator\Database\Models\SQLSrv\SQLSrvView;
+use OmrGz\MigrationsGenerator\Repositories\Entities\ProcedureDefinition;
+use OmrGz\MigrationsGenerator\Repositories\SQLSrvRepository;
+use OmrGz\MigrationsGenerator\Schema\Models\Table;
+use OmrGz\MigrationsGenerator\Schema\Models\View;
 
 class SQLSrvSchema extends DatabaseSchema
 {

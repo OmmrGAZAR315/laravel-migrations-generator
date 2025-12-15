@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\MariaDB;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\MariaDB;
 
 use Illuminate\Support\Facades\DB;
 

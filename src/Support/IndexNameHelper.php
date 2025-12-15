@@ -1,10 +1,10 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Support;
+namespace OmrGz\MigrationsGenerator\Support;
 
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\IndexType;
-use KitLoong\MigrationsGenerator\Schema\Models\Index;
-use KitLoong\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\IndexType;
+use OmrGz\MigrationsGenerator\Schema\Models\Index;
+use OmrGz\MigrationsGenerator\Setting;
 
 class IndexNameHelper
 {

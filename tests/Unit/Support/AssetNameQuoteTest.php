@@ -1,10 +1,10 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Unit\Support;
+namespace OmrGz\MigrationsGenerator\Tests\Unit\Support;
 
 use Illuminate\Support\Facades\DB;
-use KitLoong\MigrationsGenerator\Support\AssetNameQuote;
-use KitLoong\MigrationsGenerator\Tests\TestCase;
+use OmrGz\MigrationsGenerator\Support\AssetNameQuote;
+use OmrGz\MigrationsGenerator\Tests\TestCase;
 
 class AssetNameQuoteTest extends TestCase
 {

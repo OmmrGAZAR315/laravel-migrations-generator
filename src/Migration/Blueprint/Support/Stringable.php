@@ -1,11 +1,11 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Blueprint\Support;
+namespace OmrGz\MigrationsGenerator\Migration\Blueprint\Support;
 
 use Illuminate\Database\Query\Expression;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use KitLoong\MigrationsGenerator\Migration\Enum\Space;
+use OmrGz\MigrationsGenerator\Migration\Enum\Space;
 
 trait Stringable
 {

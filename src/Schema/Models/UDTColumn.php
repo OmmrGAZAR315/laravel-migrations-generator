@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Schema\Models;
+namespace OmrGz\MigrationsGenerator\Schema\Models;
 
 /**
  * Table column. User-defined type column which is not supported by the framework.

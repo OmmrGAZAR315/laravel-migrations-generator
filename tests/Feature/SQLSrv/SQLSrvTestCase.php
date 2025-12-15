@@ -1,11 +1,11 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\SQLSrv;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\SQLSrv;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
-use KitLoong\MigrationsGenerator\Tests\Feature\FeatureTestCase;
+use OmrGz\MigrationsGenerator\Tests\Feature\FeatureTestCase;
 
 abstract class SQLSrvTestCase extends FeatureTestCase
 {

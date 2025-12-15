@@ -1,11 +1,11 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models;
+namespace OmrGz\MigrationsGenerator\Database\Models;
 
-use KitLoong\MigrationsGenerator\Schema\Models\UDTColumn;
+use OmrGz\MigrationsGenerator\Schema\Models\UDTColumn;
 
 /**
- * @phpstan-import-type SchemaColumn from \KitLoong\MigrationsGenerator\Database\DatabaseSchema
+ * @phpstan-import-type SchemaColumn from \OmrGz\MigrationsGenerator\Database\DatabaseSchema
  */
 abstract class DatabaseUDTColumn implements UDTColumn
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Generator;
+namespace OmrGz\MigrationsGenerator\Migration\Generator;
 
 use Illuminate\Support\Collection;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\IndexType;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Method;
-use KitLoong\MigrationsGenerator\Schema\Models\Index;
-use KitLoong\MigrationsGenerator\Schema\Models\Table;
-use KitLoong\MigrationsGenerator\Support\IndexNameHelper;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\IndexType;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Method;
+use OmrGz\MigrationsGenerator\Schema\Models\Index;
+use OmrGz\MigrationsGenerator\Schema\Models\Table;
+use OmrGz\MigrationsGenerator\Support\IndexNameHelper;
 
 class IndexGenerator
 {
@@ -34,13 +34,13 @@ class IndexGenerator
      * $table->integer('id')->primary();
      *
      * @param  string  $name  Table name
-     * @param  \Illuminate\Support\Collection<int, \KitLoong\MigrationsGenerator\Schema\Models\Index>  $indexes
-     * @return \Illuminate\Support\Collection<string, \KitLoong\MigrationsGenerator\Schema\Models\Index> Key is the column name.
+     * @param  \Illuminate\Support\Collection<int, \OmrGz\MigrationsGenerator\Schema\Models\Index>  $indexes
+     * @return \Illuminate\Support\Collection<string, \OmrGz\MigrationsGenerator\Schema\Models\Index> Key is the column name.
      */
     public function getChainableIndexes(string $name, Collection $indexes): Collection
     {
         return $indexes->reduce(function (Collection $carry, Index $index) use ($name) {
-            /** @var \Illuminate\Support\Collection<string, \KitLoong\MigrationsGenerator\Schema\Models\Index> $carry */
+            /** @var \Illuminate\Support\Collection<string, \OmrGz\MigrationsGenerator\Schema\Models\Index> $carry */
             if (count($index->getColumns()) > 1) {
                 return $carry;
             }
@@ -87,9 +87,9 @@ class IndexGenerator
      * $table->index(['col1', 'col2'], 'not_chainable_index');
      * $table->integer(['col1', 'col2'])->primary();
      *
-     * @param  \Illuminate\Support\Collection<int, \KitLoong\MigrationsGenerator\Schema\Models\Index>  $indexes
-     * @param  \Illuminate\Support\Collection<string, \KitLoong\MigrationsGenerator\Schema\Models\Index>  $chainableIndexes  Key is column name.
-     * @return \Illuminate\Support\Collection<int, \KitLoong\MigrationsGenerator\Schema\Models\Index>
+     * @param  \Illuminate\Support\Collection<int, \OmrGz\MigrationsGenerator\Schema\Models\Index>  $indexes
+     * @param  \Illuminate\Support\Collection<string, \OmrGz\MigrationsGenerator\Schema\Models\Index>  $chainableIndexes  Key is column name.
+     * @return \Illuminate\Support\Collection<int, \OmrGz\MigrationsGenerator\Schema\Models\Index>
      */
     public function getNotChainableIndexes(Collection $indexes, Collection $chainableIndexes): Collection
     {

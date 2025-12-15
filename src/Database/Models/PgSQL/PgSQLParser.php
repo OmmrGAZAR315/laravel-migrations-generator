@@ -1,8 +1,8 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\PgSQL;
+namespace OmrGz\MigrationsGenerator\Database\Models\PgSQL;
 
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
 
 trait PgSQLParser
 {

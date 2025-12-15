@@ -1,9 +1,9 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Unit\Support;
+namespace OmrGz\MigrationsGenerator\Tests\Unit\Support;
 
-use KitLoong\MigrationsGenerator\Support\Regex;
-use KitLoong\MigrationsGenerator\Tests\TestCase;
+use OmrGz\MigrationsGenerator\Support\Regex;
+use OmrGz\MigrationsGenerator\Tests\TestCase;
 
 class RegexTest extends TestCase
 {

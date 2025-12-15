@@ -1,18 +1,18 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration;
+namespace OmrGz\MigrationsGenerator\Migration;
 
 use Illuminate\Support\Collection;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\SchemaBuilder;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\SchemaBlueprint;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\TableBlueprint;
-use KitLoong\MigrationsGenerator\Migration\Enum\MigrationFileType;
-use KitLoong\MigrationsGenerator\Migration\Generator\ForeignKeyGenerator;
-use KitLoong\MigrationsGenerator\Migration\Writer\MigrationWriter;
-use KitLoong\MigrationsGenerator\Migration\Writer\SquashWriter;
-use KitLoong\MigrationsGenerator\Setting;
-use KitLoong\MigrationsGenerator\Support\MigrationNameHelper;
-use KitLoong\MigrationsGenerator\Support\TableName;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\SchemaBuilder;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\SchemaBlueprint;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\TableBlueprint;
+use OmrGz\MigrationsGenerator\Migration\Enum\MigrationFileType;
+use OmrGz\MigrationsGenerator\Migration\Generator\ForeignKeyGenerator;
+use OmrGz\MigrationsGenerator\Migration\Writer\MigrationWriter;
+use OmrGz\MigrationsGenerator\Migration\Writer\SquashWriter;
+use OmrGz\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Support\MigrationNameHelper;
+use OmrGz\MigrationsGenerator\Support\TableName;
 
 class ForeignKeyMigration
 {
@@ -30,7 +30,7 @@ class ForeignKeyMigration
     /**
      * Create foreign key migration.
      *
-     * @param  \Illuminate\Support\Collection<int, covariant \KitLoong\MigrationsGenerator\Schema\Models\ForeignKey>  $foreignKeys
+     * @param  \Illuminate\Support\Collection<int, covariant \OmrGz\MigrationsGenerator\Schema\Models\ForeignKey>  $foreignKeys
      * @return string The migration file path.
      */
     public function write(string $table, Collection $foreignKeys): string
@@ -53,7 +53,7 @@ class ForeignKeyMigration
     /**
      * Write foreign key migration into temporary file.
      *
-     * @param  \Illuminate\Support\Collection<int, covariant \KitLoong\MigrationsGenerator\Schema\Models\ForeignKey>  $foreignKeys
+     * @param  \Illuminate\Support\Collection<int, covariant \OmrGz\MigrationsGenerator\Schema\Models\ForeignKey>  $foreignKeys
      */
     public function writeToTemp(string $table, Collection $foreignKeys): void
     {
@@ -66,7 +66,7 @@ class ForeignKeyMigration
     /**
      * Generates `up` schema for foreign key.
      *
-     * @param  \Illuminate\Support\Collection<int, covariant \KitLoong\MigrationsGenerator\Schema\Models\ForeignKey>  $foreignKeys
+     * @param  \Illuminate\Support\Collection<int, covariant \OmrGz\MigrationsGenerator\Schema\Models\ForeignKey>  $foreignKeys
      */
     private function up(string $table, Collection $foreignKeys): SchemaBlueprint
     {
@@ -86,7 +86,7 @@ class ForeignKeyMigration
     /**
      * Generates `down` schema for foreign key.
      *
-     * @param  \Illuminate\Support\Collection<int, covariant \KitLoong\MigrationsGenerator\Schema\Models\ForeignKey>  $foreignKeys
+     * @param  \Illuminate\Support\Collection<int, covariant \OmrGz\MigrationsGenerator\Schema\Models\ForeignKey>  $foreignKeys
      */
     private function down(string $table, Collection $foreignKeys): SchemaBlueprint
     {

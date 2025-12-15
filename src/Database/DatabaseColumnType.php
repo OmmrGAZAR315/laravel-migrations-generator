@@ -1,8 +1,8 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database;
+namespace OmrGz\MigrationsGenerator\Database;
 
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
 
 abstract class DatabaseColumnType
 {
@@ -12,7 +12,7 @@ abstract class DatabaseColumnType
     abstract public static function toColumnType(string $dbType): ColumnType;
 
     /**
-     * @param  array<string, \KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType>  $map
+     * @param  array<string, \OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType>  $map
      */
     protected static function mapToColumnType(array $map, string $dbType): ColumnType
     {

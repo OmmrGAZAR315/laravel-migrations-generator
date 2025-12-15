@@ -1,8 +1,8 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Blueprint;
+namespace OmrGz\MigrationsGenerator\Migration\Blueprint;
 
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\MethodName;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\MethodName;
 
 class Method
 {
@@ -12,14 +12,14 @@ class Method
     private array $values;
 
     /**
-     * @var \KitLoong\MigrationsGenerator\Migration\Blueprint\Method[]
+     * @var \OmrGz\MigrationsGenerator\Migration\Blueprint\Method[]
      */
     private array $chains;
 
     /**
      * Method constructor.
      *
-     * @param  \KitLoong\MigrationsGenerator\Enum\Migrations\Method\MethodName  $name  Method name.
+     * @param  \OmrGz\MigrationsGenerator\Enum\Migrations\Method\MethodName  $name  Method name.
      * @param  mixed  ...$values  Method arguments.
      */
     public function __construct(private readonly MethodName $name, mixed ...$values)
@@ -44,7 +44,7 @@ class Method
     /**
      * Chain method.
      *
-     * @param  \KitLoong\MigrationsGenerator\Enum\Migrations\Method\MethodName  $name  Method name.
+     * @param  \OmrGz\MigrationsGenerator\Enum\Migrations\Method\MethodName  $name  Method name.
      * @param  mixed  ...$values  Method arguments.
      * @return $this
      */
@@ -57,7 +57,7 @@ class Method
     /**
      * Checks if chain name exists.
      *
-     * @param  \KitLoong\MigrationsGenerator\Enum\Migrations\Method\MethodName  $name  Method name.
+     * @param  \OmrGz\MigrationsGenerator\Enum\Migrations\Method\MethodName  $name  Method name.
      */
     public function hasChain(MethodName $name): bool
     {
@@ -81,7 +81,7 @@ class Method
     /**
      * Get a list of chained methods.
      *
-     * @return \KitLoong\MigrationsGenerator\Migration\Blueprint\Method[]
+     * @return \OmrGz\MigrationsGenerator\Migration\Blueprint\Method[]
      */
     public function getChains(): array
     {

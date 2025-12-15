@@ -34,18 +34,18 @@
     },
     "autoload": {
         "psr-4": {
-            "KitLoong\\MigrationsGenerator\\": "src"
+            "OmrGz\\MigrationsGenerator\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "KitLoong\\MigrationsGenerator\\Tests\\": "tests"
+            "OmrGz\\MigrationsGenerator\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "KitLoong\\MigrationsGenerator\\MigrationsGeneratorServiceProvider"
+                "OmrGz\\MigrationsGenerator\\MigrationsGeneratorServiceProvider"
             ]
         }
     },

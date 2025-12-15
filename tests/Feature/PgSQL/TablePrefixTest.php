@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\PgSQL;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\PgSQL;
 
 class TablePrefixTest extends PgSQLTestCase
 {

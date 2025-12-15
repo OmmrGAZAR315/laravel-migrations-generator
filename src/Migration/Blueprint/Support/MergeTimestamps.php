@@ -1,22 +1,22 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Blueprint\Support;
+namespace OmrGz\MigrationsGenerator\Migration\Blueprint\Support;
 
 use Illuminate\Support\Facades\DB;
-use KitLoong\MigrationsGenerator\Enum\Driver;
-use KitLoong\MigrationsGenerator\Enum\Migrations\ColumnName;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnModifier;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Method;
+use OmrGz\MigrationsGenerator\Enum\Driver;
+use OmrGz\MigrationsGenerator\Enum\Migrations\ColumnName;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnModifier;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Method;
 
 trait MergeTimestamps
 {
     /**
      * Merges created_at and updated_at into timestamps or timestampsTz.
      *
-     * @param  array<int, \KitLoong\MigrationsGenerator\Migration\Blueprint\Method|\KitLoong\MigrationsGenerator\Migration\Blueprint\Property|\KitLoong\MigrationsGenerator\Migration\Enum\Space>  $lines  TableBlueprint lines.
+     * @param  array<int, \OmrGz\MigrationsGenerator\Migration\Blueprint\Method|\OmrGz\MigrationsGenerator\Migration\Blueprint\Property|\OmrGz\MigrationsGenerator\Migration\Enum\Space>  $lines  TableBlueprint lines.
      * @param  bool  $tz  Is timezone.
-     * @return array<int, \KitLoong\MigrationsGenerator\Migration\Blueprint\Method|\KitLoong\MigrationsGenerator\Migration\Blueprint\Property|\KitLoong\MigrationsGenerator\Migration\Enum\Space>  TableBlueprint lines after merged.
+     * @return array<int, \OmrGz\MigrationsGenerator\Migration\Blueprint\Method|\OmrGz\MigrationsGenerator\Migration\Blueprint\Property|\OmrGz\MigrationsGenerator\Migration\Enum\Space>  TableBlueprint lines after merged.
      */
     public function merge(array $lines, bool $tz): array
     {
@@ -67,7 +67,7 @@ trait MergeTimestamps
     /**
      * Check if column name (created_at or updated_at) is possible a timestamps.
      *
-     * @param  \KitLoong\MigrationsGenerator\Enum\Migrations\ColumnName  $columnName  Column name, created_at or updated_at.
+     * @param  \OmrGz\MigrationsGenerator\Enum\Migrations\ColumnName  $columnName  Column name, created_at or updated_at.
      * @param  bool  $tz  Is timezone.
      */
     private function checkTimestamps(ColumnName $columnName, Method $method, bool $tz): bool
@@ -107,7 +107,7 @@ trait MergeTimestamps
      * Only datetime or datetimeTz can be merged into timestamps.
      *
      * @param  bool  $tz  Is timezone.
-     * @return \KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType Column type.
+     * @return \OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType Column type.
      */
     private function sqlSrvTimestampsColumnType(bool $tz): ColumnType
     {
@@ -122,7 +122,7 @@ trait MergeTimestamps
      * Only timestamp or timestampTz can be merged into timestamps.
      *
      * @param  bool  $tz  Is timezone.
-     * @return \KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType Column type.
+     * @return \OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType Column type.
      */
     private function timestampsColumnType(bool $tz): ColumnType
     {

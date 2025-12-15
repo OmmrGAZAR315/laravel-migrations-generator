@@ -1,8 +1,8 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\SQLSrv;
+namespace OmrGz\MigrationsGenerator\Database\Models\SQLSrv;
 
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseView;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseView;
 
 class SQLSrvView extends DatabaseView
 {

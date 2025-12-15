@@ -1,9 +1,9 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Unit\Repositories\Entities\MariaDB;
+namespace OmrGz\MigrationsGenerator\Tests\Unit\Repositories\Entities\MariaDB;
 
-use KitLoong\MigrationsGenerator\Repositories\Entities\MariaDB\CheckConstraint;
-use KitLoong\MigrationsGenerator\Tests\TestCase;
+use OmrGz\MigrationsGenerator\Repositories\Entities\MariaDB\CheckConstraint;
+use OmrGz\MigrationsGenerator\Tests\TestCase;
 
 class CheckConstraintTest extends TestCase
 {

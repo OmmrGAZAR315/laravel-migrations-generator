@@ -1,11 +1,11 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models;
+namespace OmrGz\MigrationsGenerator\Database\Models;
 
-use KitLoong\MigrationsGenerator\Schema\Models\ForeignKey;
+use OmrGz\MigrationsGenerator\Schema\Models\ForeignKey;
 
 /**
- * @phpstan-import-type SchemaForeignKey from \KitLoong\MigrationsGenerator\Database\DatabaseSchema
+ * @phpstan-import-type SchemaForeignKey from \OmrGz\MigrationsGenerator\Database\DatabaseSchema
  */
 abstract class DatabaseForeignKey implements ForeignKey
 {

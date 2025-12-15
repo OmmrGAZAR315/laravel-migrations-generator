@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\MySQL57;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\MySQL57;
 
 class TablePrefixTest extends MySQL57TestCase
 {

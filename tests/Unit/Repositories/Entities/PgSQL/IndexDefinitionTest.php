@@ -1,9 +1,9 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Unit\Repositories\Entities\PgSQL;
+namespace OmrGz\MigrationsGenerator\Tests\Unit\Repositories\Entities\PgSQL;
 
-use KitLoong\MigrationsGenerator\Repositories\Entities\PgSQL\IndexDefinition;
-use KitLoong\MigrationsGenerator\Tests\TestCase;
+use OmrGz\MigrationsGenerator\Repositories\Entities\PgSQL\IndexDefinition;
+use OmrGz\MigrationsGenerator\Tests\TestCase;
 
 class IndexDefinitionTest extends TestCase
 {

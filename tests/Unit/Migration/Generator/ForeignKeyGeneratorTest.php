@@ -1,12 +1,12 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Unit\Migration\Generator;
+namespace OmrGz\MigrationsGenerator\Tests\Unit\Migration\Generator;
 
-use KitLoong\MigrationsGenerator\Database\Models\SQLite\SQLiteForeignKey;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\Foreign;
-use KitLoong\MigrationsGenerator\Migration\Generator\ForeignKeyGenerator;
-use KitLoong\MigrationsGenerator\Setting;
-use KitLoong\MigrationsGenerator\Tests\TestCase;
+use OmrGz\MigrationsGenerator\Database\Models\SQLite\SQLiteForeignKey;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\Foreign;
+use OmrGz\MigrationsGenerator\Migration\Generator\ForeignKeyGenerator;
+use OmrGz\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Tests\TestCase;
 
 class ForeignKeyGeneratorTest extends TestCase
 {

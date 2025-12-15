@@ -1,14 +1,14 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\SQLite;
+namespace OmrGz\MigrationsGenerator\Database\Models\SQLite;
 
-use KitLoong\MigrationsGenerator\Database\DatabaseColumnType;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Database\DatabaseColumnType;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
 
 class SQLiteColumnType extends DatabaseColumnType
 {
     /**
-     * @var array<string, \KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType>
+     * @var array<string, \OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType>
      */
     protected static array $map = [
         'bigint'           => ColumnType::BIG_INTEGER,

@@ -1,29 +1,29 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models;
+namespace OmrGz\MigrationsGenerator\Database\Models;
 
 use Illuminate\Support\Collection;
-use KitLoong\MigrationsGenerator\Schema\Models\Column;
-use KitLoong\MigrationsGenerator\Schema\Models\Index;
-use KitLoong\MigrationsGenerator\Schema\Models\Table;
-use KitLoong\MigrationsGenerator\Schema\Models\UDTColumn;
+use OmrGz\MigrationsGenerator\Schema\Models\Column;
+use OmrGz\MigrationsGenerator\Schema\Models\Index;
+use OmrGz\MigrationsGenerator\Schema\Models\Table;
+use OmrGz\MigrationsGenerator\Schema\Models\UDTColumn;
 
 /**
- * @phpstan-import-type SchemaColumn from \KitLoong\MigrationsGenerator\Database\DatabaseSchema
- * @phpstan-import-type SchemaTable from \KitLoong\MigrationsGenerator\Database\DatabaseSchema
- * @phpstan-import-type SchemaIndex from \KitLoong\MigrationsGenerator\Database\DatabaseSchema
+ * @phpstan-import-type SchemaColumn from \OmrGz\MigrationsGenerator\Database\DatabaseSchema
+ * @phpstan-import-type SchemaTable from \OmrGz\MigrationsGenerator\Database\DatabaseSchema
+ * @phpstan-import-type SchemaIndex from \OmrGz\MigrationsGenerator\Database\DatabaseSchema
  */
 abstract class DatabaseTable implements Table
 {
     protected ?string $collation = null;
 
     /**
-     * @var \Illuminate\Support\Collection<int, \KitLoong\MigrationsGenerator\Schema\Models\Column>
+     * @var \Illuminate\Support\Collection<int, \OmrGz\MigrationsGenerator\Schema\Models\Column>
      */
     protected Collection $columns;
 
     /**
-     * @var \Illuminate\Support\Collection<int, \KitLoong\MigrationsGenerator\Schema\Models\UDTColumn>
+     * @var \Illuminate\Support\Collection<int, \OmrGz\MigrationsGenerator\Schema\Models\UDTColumn>
      */
     protected Collection $udtColumns;
 
@@ -32,7 +32,7 @@ abstract class DatabaseTable implements Table
     protected ?string $comment = null;
 
     /**
-     * @var \Illuminate\Support\Collection<int, \KitLoong\MigrationsGenerator\Schema\Models\Index>
+     * @var \Illuminate\Support\Collection<int, \OmrGz\MigrationsGenerator\Schema\Models\Index>
      */
     protected Collection $indexes;
 

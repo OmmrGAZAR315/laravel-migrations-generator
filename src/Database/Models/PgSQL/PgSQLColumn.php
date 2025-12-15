@@ -1,12 +1,12 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\PgSQL;
+namespace OmrGz\MigrationsGenerator\Database\Models\PgSQL;
 
 use Illuminate\Support\Str;
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseColumn;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
-use KitLoong\MigrationsGenerator\Repositories\PgSQLRepository;
-use KitLoong\MigrationsGenerator\Support\Regex;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseColumn;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Repositories\PgSQLRepository;
+use OmrGz\MigrationsGenerator\Support\Regex;
 
 class PgSQLColumn extends DatabaseColumn
 {

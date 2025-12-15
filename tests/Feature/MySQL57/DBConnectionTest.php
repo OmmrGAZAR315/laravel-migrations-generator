@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\MySQL57;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\MySQL57;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;

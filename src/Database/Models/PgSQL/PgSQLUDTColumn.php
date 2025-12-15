@@ -1,12 +1,12 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\PgSQL;
+namespace OmrGz\MigrationsGenerator\Database\Models\PgSQL;
 
 use Illuminate\Support\Str;
-use KitLoong\MigrationsGenerator\Database\Models\Blueprint;
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseUDTColumn;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
-use KitLoong\MigrationsGenerator\Support\TableName;
+use OmrGz\MigrationsGenerator\Database\Models\Blueprint;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseUDTColumn;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Support\TableName;
 
 class PgSQLUDTColumn extends DatabaseUDTColumn
 {

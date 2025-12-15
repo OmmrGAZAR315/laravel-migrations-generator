@@ -1,8 +1,8 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\PgSQL;
+namespace OmrGz\MigrationsGenerator\Database\Models\PgSQL;
 
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseView;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseView;
 
 class PgSQLView extends DatabaseView
 {

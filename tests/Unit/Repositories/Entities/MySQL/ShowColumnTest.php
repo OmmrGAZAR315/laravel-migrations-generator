@@ -1,9 +1,9 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Unit\Repositories\Entities\MySQL;
+namespace OmrGz\MigrationsGenerator\Tests\Unit\Repositories\Entities\MySQL;
 
-use KitLoong\MigrationsGenerator\Repositories\Entities\MySQL\ShowColumn;
-use KitLoong\MigrationsGenerator\Tests\TestCase;
+use OmrGz\MigrationsGenerator\Repositories\Entities\MySQL\ShowColumn;
+use OmrGz\MigrationsGenerator\Tests\TestCase;
 
 class ShowColumnTest extends TestCase
 {

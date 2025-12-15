@@ -1,13 +1,13 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database;
+namespace OmrGz\MigrationsGenerator\Database;
 
 use Illuminate\Support\Collection;
-use KitLoong\MigrationsGenerator\Database\Models\SQLite\SQLiteForeignKey;
-use KitLoong\MigrationsGenerator\Database\Models\SQLite\SQLiteTable;
-use KitLoong\MigrationsGenerator\Database\Models\SQLite\SQLiteView;
-use KitLoong\MigrationsGenerator\Schema\Models\Table;
-use KitLoong\MigrationsGenerator\Schema\Models\View;
+use OmrGz\MigrationsGenerator\Database\Models\SQLite\SQLiteForeignKey;
+use OmrGz\MigrationsGenerator\Database\Models\SQLite\SQLiteTable;
+use OmrGz\MigrationsGenerator\Database\Models\SQLite\SQLiteView;
+use OmrGz\MigrationsGenerator\Schema\Models\Table;
+use OmrGz\MigrationsGenerator\Schema\Models\View;
 
 class SQLiteSchema extends DatabaseSchema
 {

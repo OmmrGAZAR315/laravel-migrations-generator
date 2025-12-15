@@ -1,15 +1,15 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\PgSQL;
+namespace OmrGz\MigrationsGenerator\Database\Models\PgSQL;
 
 use Illuminate\Support\Collection;
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseTable;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\IndexType;
-use KitLoong\MigrationsGenerator\Repositories\Entities\PgSQL\IndexDefinition;
-use KitLoong\MigrationsGenerator\Repositories\PgSQLRepository;
-use KitLoong\MigrationsGenerator\Schema\Models\Column;
-use KitLoong\MigrationsGenerator\Schema\Models\Index;
-use KitLoong\MigrationsGenerator\Schema\Models\UDTColumn;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseTable;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\IndexType;
+use OmrGz\MigrationsGenerator\Repositories\Entities\PgSQL\IndexDefinition;
+use OmrGz\MigrationsGenerator\Repositories\PgSQLRepository;
+use OmrGz\MigrationsGenerator\Schema\Models\Column;
+use OmrGz\MigrationsGenerator\Schema\Models\Index;
+use OmrGz\MigrationsGenerator\Schema\Models\UDTColumn;
 
 class PgSQLTable extends DatabaseTable
 {

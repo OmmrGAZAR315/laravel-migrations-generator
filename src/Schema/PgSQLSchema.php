@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Schema;
+namespace OmrGz\MigrationsGenerator\Schema;
 
 interface PgSQLSchema extends Schema
 {

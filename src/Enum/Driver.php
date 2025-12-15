@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Enum;
+namespace OmrGz\MigrationsGenerator\Enum;
 
 /**
  * Framework DB connection driver name.

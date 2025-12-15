@@ -116,8 +116,8 @@
   <rule ref="SlevomatCodingStandard.Files.TypeNameMatchesFileName">
     <properties>
       <property name="rootNamespaces" type="array">
-        <element key="src" value="KitLoong\MigrationsGenerator"/>
-        <element key="tests" value="KitLoong\MigrationsGenerator\Tests"/>
+        <element key="src" value="OmrGz\MigrationsGenerator"/>
+        <element key="tests" value="OmrGz\MigrationsGenerator\Tests"/>
       </property>
     </properties>
   </rule>

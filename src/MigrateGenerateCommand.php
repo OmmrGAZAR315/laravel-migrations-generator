@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator;
+namespace OmrGz\MigrationsGenerator;
 
 use Carbon\Carbon;
 use Exception;
@@ -9,20 +9,20 @@ use Illuminate\Database\Migrations\MigrationRepositoryInterface;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\DB;
-use KitLoong\MigrationsGenerator\Enum\Driver;
-use KitLoong\MigrationsGenerator\Migration\ForeignKeyMigration;
-use KitLoong\MigrationsGenerator\Migration\Migrator\Migrator;
-use KitLoong\MigrationsGenerator\Migration\ProcedureMigration;
-use KitLoong\MigrationsGenerator\Migration\Squash;
-use KitLoong\MigrationsGenerator\Migration\TableMigration;
-use KitLoong\MigrationsGenerator\Migration\ViewMigration;
-use KitLoong\MigrationsGenerator\Schema\Models\Procedure;
-use KitLoong\MigrationsGenerator\Schema\Models\View;
-use KitLoong\MigrationsGenerator\Schema\MySQLSchema;
-use KitLoong\MigrationsGenerator\Schema\PgSQLSchema;
-use KitLoong\MigrationsGenerator\Schema\Schema;
-use KitLoong\MigrationsGenerator\Schema\SQLiteSchema;
-use KitLoong\MigrationsGenerator\Schema\SQLSrvSchema;
+use OmrGz\MigrationsGenerator\Enum\Driver;
+use OmrGz\MigrationsGenerator\Migration\ForeignKeyMigration;
+use OmrGz\MigrationsGenerator\Migration\Migrator\Migrator;
+use OmrGz\MigrationsGenerator\Migration\ProcedureMigration;
+use OmrGz\MigrationsGenerator\Migration\Squash;
+use OmrGz\MigrationsGenerator\Migration\TableMigration;
+use OmrGz\MigrationsGenerator\Migration\ViewMigration;
+use OmrGz\MigrationsGenerator\Schema\Models\Procedure;
+use OmrGz\MigrationsGenerator\Schema\Models\View;
+use OmrGz\MigrationsGenerator\Schema\MySQLSchema;
+use OmrGz\MigrationsGenerator\Schema\PgSQLSchema;
+use OmrGz\MigrationsGenerator\Schema\Schema;
+use OmrGz\MigrationsGenerator\Schema\SQLiteSchema;
+use OmrGz\MigrationsGenerator\Schema\SQLSrvSchema;
 
 class MigrateGenerateCommand extends Command
 {

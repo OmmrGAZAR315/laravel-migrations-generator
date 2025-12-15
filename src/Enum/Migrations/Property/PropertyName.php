@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Enum\Migrations\Property;
+namespace OmrGz\MigrationsGenerator\Enum\Migrations\Property;
 
 use BackedEnum;
 

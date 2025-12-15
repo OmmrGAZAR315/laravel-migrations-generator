@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Enum;
+namespace OmrGz\MigrationsGenerator\Migration\Enum;
 
 enum Space: string
 {

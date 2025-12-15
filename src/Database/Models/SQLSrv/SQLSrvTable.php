@@ -1,11 +1,11 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\SQLSrv;
+namespace OmrGz\MigrationsGenerator\Database\Models\SQLSrv;
 
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseTable;
-use KitLoong\MigrationsGenerator\Schema\Models\Column;
-use KitLoong\MigrationsGenerator\Schema\Models\Index;
-use KitLoong\MigrationsGenerator\Schema\Models\UDTColumn;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseTable;
+use OmrGz\MigrationsGenerator\Schema\Models\Column;
+use OmrGz\MigrationsGenerator\Schema\Models\Index;
+use OmrGz\MigrationsGenerator\Schema\Models\UDTColumn;
 
 class SQLSrvTable extends DatabaseTable
 {

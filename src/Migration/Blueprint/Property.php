@@ -1,8 +1,8 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Blueprint;
+namespace OmrGz\MigrationsGenerator\Migration\Blueprint;
 
-use KitLoong\MigrationsGenerator\Enum\Migrations\Property\PropertyName;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Property\PropertyName;
 
 class Property
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Unit\Database\Models\PgSQL;
+namespace OmrGz\MigrationsGenerator\Tests\Unit\Database\Models\PgSQL;
 
-use KitLoong\MigrationsGenerator\Database\Models\PgSQL\PgSQLColumn;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
-use KitLoong\MigrationsGenerator\Repositories\PgSQLRepository;
-use KitLoong\MigrationsGenerator\Tests\TestCase;
+use OmrGz\MigrationsGenerator\Database\Models\PgSQL\PgSQLColumn;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Repositories\PgSQLRepository;
+use OmrGz\MigrationsGenerator\Tests\TestCase;
 use Mockery\MockInterface;
 use PHPUnit\Framework\Attributes\DataProvider;
 

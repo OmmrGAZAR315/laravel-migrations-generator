@@ -1,11 +1,11 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration;
+namespace OmrGz\MigrationsGenerator\Migration;
 
 use Illuminate\Support\Facades\DB;
-use KitLoong\MigrationsGenerator\Migration\Writer\SquashWriter;
-use KitLoong\MigrationsGenerator\Setting;
-use KitLoong\MigrationsGenerator\Support\MigrationNameHelper;
+use OmrGz\MigrationsGenerator\Migration\Writer\SquashWriter;
+use OmrGz\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Support\MigrationNameHelper;
 
 class Squash
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\MariaDB;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\MariaDB;
 
 class TablePrefixTest extends MariaDBTestCase
 {

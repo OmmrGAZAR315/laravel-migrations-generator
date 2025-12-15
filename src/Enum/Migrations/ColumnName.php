@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Enum\Migrations;
+namespace OmrGz\MigrationsGenerator\Enum\Migrations;
 
 /**
  * Preserved column names used by the framework.

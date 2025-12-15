@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator;
+namespace OmrGz\MigrationsGenerator;
 
 use Carbon\Carbon;
 

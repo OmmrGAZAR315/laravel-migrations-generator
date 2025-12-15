@@ -1,9 +1,9 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\MySQL;
+namespace OmrGz\MigrationsGenerator\Database\Models\MySQL;
 
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseIndex;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\IndexType;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseIndex;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\IndexType;
 
 class MySQLIndex extends DatabaseIndex
 {

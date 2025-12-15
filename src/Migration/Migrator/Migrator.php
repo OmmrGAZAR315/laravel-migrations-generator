@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Migrator;
+namespace OmrGz\MigrationsGenerator\Migration\Migrator;
 
 use Illuminate\Database\Migrations\Migrator as DefaultMigrator;
 use Illuminate\Support\Facades\Config;

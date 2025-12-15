@@ -1,12 +1,12 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models;
+namespace OmrGz\MigrationsGenerator\Database\Models;
 
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\IndexType;
-use KitLoong\MigrationsGenerator\Schema\Models\Index;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\IndexType;
+use OmrGz\MigrationsGenerator\Schema\Models\Index;
 
 /**
- * @phpstan-import-type SchemaIndex from \KitLoong\MigrationsGenerator\Database\DatabaseSchema
+ * @phpstan-import-type SchemaIndex from \OmrGz\MigrationsGenerator\Database\DatabaseSchema
  */
 abstract class DatabaseIndex implements Index
 {

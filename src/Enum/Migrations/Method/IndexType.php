@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Enum\Migrations\Method;
+namespace OmrGz\MigrationsGenerator\Enum\Migrations\Method;
 
 /**
  * Predefined index types of the framework.

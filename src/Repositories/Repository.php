@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Repositories;
+namespace OmrGz\MigrationsGenerator\Repositories;
 
 abstract class Repository
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\SQLSrv;
+namespace OmrGz\MigrationsGenerator\Database\Models\SQLSrv;
 
 trait SQLSrvParser
 {

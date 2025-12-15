@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\MySQL8;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\MySQL8;
 
 class TablePrefixTest extends MySQL8TestCase
 {

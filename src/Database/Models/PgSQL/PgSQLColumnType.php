@@ -1,14 +1,14 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\PgSQL;
+namespace OmrGz\MigrationsGenerator\Database\Models\PgSQL;
 
-use KitLoong\MigrationsGenerator\Database\DatabaseColumnType;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Database\DatabaseColumnType;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
 
 class PgSQLColumnType extends DatabaseColumnType
 {
     /**
-     * @var array<string, \KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType>
+     * @var array<string, \OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType>
      */
     protected static array $map = [
         '_text'            => ColumnType::TEXT,

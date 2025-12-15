@@ -1,8 +1,8 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Schema\Models;
+namespace OmrGz\MigrationsGenerator\Schema\Models;
 
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\IndexType;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\IndexType;
 
 interface Index extends Model
 {

@@ -1,28 +1,28 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration;
+namespace OmrGz\MigrationsGenerator\Migration;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use KitLoong\MigrationsGenerator\Enum\Driver;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\SchemaBuilder;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\TableMethod;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Property\TableProperty;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\DBStatementBlueprint;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Method;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\SchemaBlueprint;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\TableBlueprint;
-use KitLoong\MigrationsGenerator\Migration\Enum\MigrationFileType;
-use KitLoong\MigrationsGenerator\Migration\Generator\ColumnGenerator;
-use KitLoong\MigrationsGenerator\Migration\Generator\IndexGenerator;
-use KitLoong\MigrationsGenerator\Migration\Writer\MigrationWriter;
-use KitLoong\MigrationsGenerator\Migration\Writer\SquashWriter;
-use KitLoong\MigrationsGenerator\Schema\Models\Index;
-use KitLoong\MigrationsGenerator\Schema\Models\Table;
-use KitLoong\MigrationsGenerator\Setting;
-use KitLoong\MigrationsGenerator\Support\MigrationNameHelper;
-use KitLoong\MigrationsGenerator\Support\TableName;
+use OmrGz\MigrationsGenerator\Enum\Driver;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\SchemaBuilder;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\TableMethod;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Property\TableProperty;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\DBStatementBlueprint;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Method;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\SchemaBlueprint;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\TableBlueprint;
+use OmrGz\MigrationsGenerator\Migration\Enum\MigrationFileType;
+use OmrGz\MigrationsGenerator\Migration\Generator\ColumnGenerator;
+use OmrGz\MigrationsGenerator\Migration\Generator\IndexGenerator;
+use OmrGz\MigrationsGenerator\Migration\Writer\MigrationWriter;
+use OmrGz\MigrationsGenerator\Migration\Writer\SquashWriter;
+use OmrGz\MigrationsGenerator\Schema\Models\Index;
+use OmrGz\MigrationsGenerator\Schema\Models\Table;
+use OmrGz\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Support\MigrationNameHelper;
+use OmrGz\MigrationsGenerator\Support\TableName;
 
 class TableMigration
 {
@@ -134,7 +134,7 @@ class TableMigration
     /**
      * Generate custom statements.
      *
-     * @return \KitLoong\MigrationsGenerator\Migration\Blueprint\DBStatementBlueprint[]
+     * @return \OmrGz\MigrationsGenerator\Migration\Blueprint\DBStatementBlueprint[]
      */
     private function upAdditionalStatements(Table $table): array
     {

@@ -1,13 +1,13 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\MySQL;
+namespace OmrGz\MigrationsGenerator\Database\Models\MySQL;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseColumn;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
-use KitLoong\MigrationsGenerator\Repositories\MariaDBRepository;
-use KitLoong\MigrationsGenerator\Repositories\MySQLRepository;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseColumn;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Repositories\MariaDBRepository;
+use OmrGz\MigrationsGenerator\Repositories\MySQLRepository;
 use PDO;
 
 class MySQLColumn extends DatabaseColumn

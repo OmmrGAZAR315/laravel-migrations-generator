@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\SQLSrv;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\SQLSrv;
 
 class TablePrefixTest extends SQLSrvTestCase
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Repositories;
+namespace OmrGz\MigrationsGenerator\Repositories;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use KitLoong\MigrationsGenerator\Repositories\Entities\PgSQL\IndexDefinition;
-use KitLoong\MigrationsGenerator\Repositories\Entities\ProcedureDefinition;
+use OmrGz\MigrationsGenerator\Repositories\Entities\PgSQL\IndexDefinition;
+use OmrGz\MigrationsGenerator\Repositories\Entities\ProcedureDefinition;
 
 class PgSQLRepository extends Repository
 {
@@ -44,7 +44,7 @@ class PgSQLRepository extends Repository
      * Get a list of fulltext indexes.
      *
      * @param  string  $table  Table name.
-     * @return \Illuminate\Support\Collection<int, \KitLoong\MigrationsGenerator\Repositories\Entities\PgSQL\IndexDefinition>
+     * @return \Illuminate\Support\Collection<int, \OmrGz\MigrationsGenerator\Repositories\Entities\PgSQL\IndexDefinition>
      */
     public function getFulltextIndexes(string $table): Collection
     {
@@ -77,7 +77,7 @@ class PgSQLRepository extends Repository
     /**
      * Get a list of stored procedures.
      *
-     * @return \Illuminate\Support\Collection<int, \KitLoong\MigrationsGenerator\Repositories\Entities\ProcedureDefinition>
+     * @return \Illuminate\Support\Collection<int, \OmrGz\MigrationsGenerator\Repositories\Entities\ProcedureDefinition>
      */
     public function getProcedures(): Collection
     {

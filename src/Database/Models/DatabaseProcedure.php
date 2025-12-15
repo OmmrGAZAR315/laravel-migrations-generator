@@ -1,8 +1,8 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models;
+namespace OmrGz\MigrationsGenerator\Database\Models;
 
-use KitLoong\MigrationsGenerator\Schema\Models\Procedure;
+use OmrGz\MigrationsGenerator\Schema\Models\Procedure;
 
 abstract class DatabaseProcedure implements Procedure
 {

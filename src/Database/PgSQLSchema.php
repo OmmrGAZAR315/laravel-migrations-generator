@@ -1,18 +1,18 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database;
+namespace OmrGz\MigrationsGenerator\Database;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use KitLoong\MigrationsGenerator\Database\Models\PgSQL\PgSQLForeignKey;
-use KitLoong\MigrationsGenerator\Database\Models\PgSQL\PgSQLProcedure;
-use KitLoong\MigrationsGenerator\Database\Models\PgSQL\PgSQLTable;
-use KitLoong\MigrationsGenerator\Database\Models\PgSQL\PgSQLView;
-use KitLoong\MigrationsGenerator\Repositories\Entities\ProcedureDefinition;
-use KitLoong\MigrationsGenerator\Repositories\PgSQLRepository;
-use KitLoong\MigrationsGenerator\Schema\Models\Table;
-use KitLoong\MigrationsGenerator\Schema\Models\View;
-use KitLoong\MigrationsGenerator\Support\CheckLaravelVersion;
+use OmrGz\MigrationsGenerator\Database\Models\PgSQL\PgSQLForeignKey;
+use OmrGz\MigrationsGenerator\Database\Models\PgSQL\PgSQLProcedure;
+use OmrGz\MigrationsGenerator\Database\Models\PgSQL\PgSQLTable;
+use OmrGz\MigrationsGenerator\Database\Models\PgSQL\PgSQLView;
+use OmrGz\MigrationsGenerator\Repositories\Entities\ProcedureDefinition;
+use OmrGz\MigrationsGenerator\Repositories\PgSQLRepository;
+use OmrGz\MigrationsGenerator\Schema\Models\Table;
+use OmrGz\MigrationsGenerator\Schema\Models\View;
+use OmrGz\MigrationsGenerator\Support\CheckLaravelVersion;
 
 class PgSQLSchema extends DatabaseSchema
 {

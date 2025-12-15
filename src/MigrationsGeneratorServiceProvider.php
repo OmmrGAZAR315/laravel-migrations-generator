@@ -1,36 +1,36 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator;
+namespace OmrGz\MigrationsGenerator;
 
 use Illuminate\Database\Migrations\MigrationRepositoryInterface;
 use Illuminate\Support\ServiceProvider;
-use KitLoong\MigrationsGenerator\Database\MySQLSchema as DatabaseMySQLSchema;
-use KitLoong\MigrationsGenerator\Database\PgSQLSchema as DatabasePgSQLSchema;
-use KitLoong\MigrationsGenerator\Database\SQLiteSchema as DatabaseSQLiteSchema;
-use KitLoong\MigrationsGenerator\Database\SQLSrvSchema as DatabaseSQLSrvSchema;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
-use KitLoong\MigrationsGenerator\Migration\Generator\Columns\BooleanColumn;
-use KitLoong\MigrationsGenerator\Migration\Generator\Columns\DatetimeColumn;
-use KitLoong\MigrationsGenerator\Migration\Generator\Columns\DecimalColumn;
-use KitLoong\MigrationsGenerator\Migration\Generator\Columns\DoubleColumn;
-use KitLoong\MigrationsGenerator\Migration\Generator\Columns\FloatColumn;
-use KitLoong\MigrationsGenerator\Migration\Generator\Columns\IntegerColumn;
-use KitLoong\MigrationsGenerator\Migration\Generator\Columns\MiscColumn;
-use KitLoong\MigrationsGenerator\Migration\Generator\Columns\OmitNameColumn;
-use KitLoong\MigrationsGenerator\Migration\Generator\Columns\PresetValuesColumn;
-use KitLoong\MigrationsGenerator\Migration\Generator\Columns\SoftDeleteColumn;
-use KitLoong\MigrationsGenerator\Migration\Generator\Columns\SpatialColumn;
-use KitLoong\MigrationsGenerator\Migration\Generator\Columns\StringColumn;
-use KitLoong\MigrationsGenerator\Migration\Migrator\Migrator;
-use KitLoong\MigrationsGenerator\Repositories\MariaDBRepository;
-use KitLoong\MigrationsGenerator\Repositories\MySQLRepository;
-use KitLoong\MigrationsGenerator\Repositories\PgSQLRepository;
-use KitLoong\MigrationsGenerator\Repositories\SQLiteRepository;
-use KitLoong\MigrationsGenerator\Repositories\SQLSrvRepository;
-use KitLoong\MigrationsGenerator\Schema\MySQLSchema;
-use KitLoong\MigrationsGenerator\Schema\PgSQLSchema;
-use KitLoong\MigrationsGenerator\Schema\SQLiteSchema;
-use KitLoong\MigrationsGenerator\Schema\SQLSrvSchema;
+use OmrGz\MigrationsGenerator\Database\MySQLSchema as DatabaseMySQLSchema;
+use OmrGz\MigrationsGenerator\Database\PgSQLSchema as DatabasePgSQLSchema;
+use OmrGz\MigrationsGenerator\Database\SQLiteSchema as DatabaseSQLiteSchema;
+use OmrGz\MigrationsGenerator\Database\SQLSrvSchema as DatabaseSQLSrvSchema;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Migration\Generator\Columns\BooleanColumn;
+use OmrGz\MigrationsGenerator\Migration\Generator\Columns\DatetimeColumn;
+use OmrGz\MigrationsGenerator\Migration\Generator\Columns\DecimalColumn;
+use OmrGz\MigrationsGenerator\Migration\Generator\Columns\DoubleColumn;
+use OmrGz\MigrationsGenerator\Migration\Generator\Columns\FloatColumn;
+use OmrGz\MigrationsGenerator\Migration\Generator\Columns\IntegerColumn;
+use OmrGz\MigrationsGenerator\Migration\Generator\Columns\MiscColumn;
+use OmrGz\MigrationsGenerator\Migration\Generator\Columns\OmitNameColumn;
+use OmrGz\MigrationsGenerator\Migration\Generator\Columns\PresetValuesColumn;
+use OmrGz\MigrationsGenerator\Migration\Generator\Columns\SoftDeleteColumn;
+use OmrGz\MigrationsGenerator\Migration\Generator\Columns\SpatialColumn;
+use OmrGz\MigrationsGenerator\Migration\Generator\Columns\StringColumn;
+use OmrGz\MigrationsGenerator\Migration\Migrator\Migrator;
+use OmrGz\MigrationsGenerator\Repositories\MariaDBRepository;
+use OmrGz\MigrationsGenerator\Repositories\MySQLRepository;
+use OmrGz\MigrationsGenerator\Repositories\PgSQLRepository;
+use OmrGz\MigrationsGenerator\Repositories\SQLiteRepository;
+use OmrGz\MigrationsGenerator\Repositories\SQLSrvRepository;
+use OmrGz\MigrationsGenerator\Schema\MySQLSchema;
+use OmrGz\MigrationsGenerator\Schema\PgSQLSchema;
+use OmrGz\MigrationsGenerator\Schema\SQLiteSchema;
+use OmrGz\MigrationsGenerator\Schema\SQLSrvSchema;
 
 class MigrationsGeneratorServiceProvider extends ServiceProvider
 {
@@ -108,7 +108,7 @@ class MigrationsGeneratorServiceProvider extends ServiceProvider
     /**
      * Make column generator singleton by type.
      *
-     * @param  class-string<\KitLoong\MigrationsGenerator\Migration\Generator\Columns\ColumnTypeGenerator>  $columnTypeGenerator
+     * @param  class-string<\OmrGz\MigrationsGenerator\Migration\Generator\Columns\ColumnTypeGenerator>  $columnTypeGenerator
      */
     protected function columnTypeSingleton(ColumnType $type, string $columnTypeGenerator): void
     {

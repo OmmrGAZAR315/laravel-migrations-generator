@@ -1,9 +1,9 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Support;
+namespace OmrGz\MigrationsGenerator\Support;
 
 use Illuminate\Support\Facades\DB;
-use KitLoong\MigrationsGenerator\Enum\Driver;
+use OmrGz\MigrationsGenerator\Enum\Driver;
 
 trait AssetNameQuote
 {

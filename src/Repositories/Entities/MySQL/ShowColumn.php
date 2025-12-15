@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Repositories\Entities\MySQL;
+namespace OmrGz\MigrationsGenerator\Repositories\Entities\MySQL;
 
 use Illuminate\Support\Collection;
 use stdClass;

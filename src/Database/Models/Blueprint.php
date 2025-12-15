@@ -1,10 +1,10 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models;
+namespace OmrGz\MigrationsGenerator\Database\Models;
 
 use Illuminate\Database\Schema\Blueprint as BaseBlueprint;
 use Illuminate\Support\Facades\Schema;
-use KitLoong\MigrationsGenerator\Support\CheckLaravelVersion;
+use OmrGz\MigrationsGenerator\Support\CheckLaravelVersion;
 
 class Blueprint extends BaseBlueprint
 {

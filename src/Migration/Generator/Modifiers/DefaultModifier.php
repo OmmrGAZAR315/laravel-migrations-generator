@@ -1,18 +1,18 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Generator\Modifiers;
+namespace OmrGz\MigrationsGenerator\Migration\Generator\Modifiers;
 
 use Illuminate\Support\Facades\DB;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnModifier;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Method;
-use KitLoong\MigrationsGenerator\Schema\Models\Column;
-use KitLoong\MigrationsGenerator\Schema\Models\Table;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnModifier;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Method;
+use OmrGz\MigrationsGenerator\Schema\Models\Column;
+use OmrGz\MigrationsGenerator\Schema\Models\Table;
 
 class DefaultModifier implements Modifier
 {
     /**
-     * @var array<string, \Closure(\KitLoong\MigrationsGenerator\Migration\Blueprint\Method $method, \KitLoong\MigrationsGenerator\Schema\Models\Column $column): \KitLoong\MigrationsGenerator\Migration\Blueprint\Method>
+     * @var array<string, \Closure(\OmrGz\MigrationsGenerator\Migration\Blueprint\Method $method, \OmrGz\MigrationsGenerator\Schema\Models\Column $column): \OmrGz\MigrationsGenerator\Migration\Blueprint\Method>
      */
     private array $chainerMap = [];
 

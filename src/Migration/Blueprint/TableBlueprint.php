@@ -1,30 +1,30 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Blueprint;
+namespace OmrGz\MigrationsGenerator\Migration\Blueprint;
 
 use Illuminate\Support\Collection;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\MethodName;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Property\PropertyName;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Support\MergeTimestamps;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Support\Stringable;
-use KitLoong\MigrationsGenerator\Migration\Enum\Space;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\MethodName;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Property\PropertyName;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Support\MergeTimestamps;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Support\Stringable;
+use OmrGz\MigrationsGenerator\Migration\Enum\Space;
 
 /**
  * Create migration lines with `$table->`.
  *
- * eg 1 ({@see \KitLoong\MigrationsGenerator\Migration\Blueprint\Property}):
+ * eg 1 ({@see \OmrGz\MigrationsGenerator\Migration\Blueprint\Property}):
  * ```
  * $table->collation = 'utf8mb4';
  * ```
  *
- * eg 2 ({}@see \KitLoong\MigrationsGenerator\Migration\Blueprint\Method):
+ * eg 2 ({}@see \OmrGz\MigrationsGenerator\Migration\Blueprint\Method):
  * ```
  * $table->string('name');
  * $table->string('email')->unique();
  * $table->timestamps();
  * ```
  *
- * eg 3 ({}@see \KitLoong\MigrationsGenerator\Migration\Blueprint\Method):
+ * eg 3 ({}@see \OmrGz\MigrationsGenerator\Migration\Blueprint\Method):
  * ```
  * $table->foreign(['user_id'])->references(['id'])->on('users');
  * $table->dropForeign('user_id_foreign');
@@ -36,7 +36,7 @@ class TableBlueprint implements WritableBlueprint
     use Stringable;
 
     /**
-     * @var array<int, \KitLoong\MigrationsGenerator\Migration\Blueprint\Method|\KitLoong\MigrationsGenerator\Migration\Blueprint\Property|\KitLoong\MigrationsGenerator\Migration\Enum\Space>
+     * @var array<int, \OmrGz\MigrationsGenerator\Migration\Blueprint\Method|\OmrGz\MigrationsGenerator\Migration\Blueprint\Property|\OmrGz\MigrationsGenerator\Migration\Enum\Space>
      */
     private array $lines;
 
@@ -51,7 +51,7 @@ class TableBlueprint implements WritableBlueprint
     }
 
     /**
-     * @param  \KitLoong\MigrationsGenerator\Enum\Migrations\Property\PropertyName  $name  Property name.
+     * @param  \OmrGz\MigrationsGenerator\Enum\Migrations\Property\PropertyName  $name  Property name.
      */
     public function setProperty(PropertyName $name, mixed $value): Property
     {
@@ -61,7 +61,7 @@ class TableBlueprint implements WritableBlueprint
     }
 
     /**
-     * @param  \KitLoong\MigrationsGenerator\Enum\Migrations\Method\MethodName  $name  Method name.
+     * @param  \OmrGz\MigrationsGenerator\Enum\Migrations\Method\MethodName  $name  Method name.
      * @param  mixed  ...$values  Method arguments.
      */
     public function setMethodByName(MethodName $name, mixed ...$values): Method
@@ -83,7 +83,7 @@ class TableBlueprint implements WritableBlueprint
     }
 
     /**
-     * @return array<int, \KitLoong\MigrationsGenerator\Migration\Blueprint\Method|\KitLoong\MigrationsGenerator\Migration\Blueprint\Property|\KitLoong\MigrationsGenerator\Migration\Enum\Space>
+     * @return array<int, \OmrGz\MigrationsGenerator\Migration\Blueprint\Method|\OmrGz\MigrationsGenerator\Migration\Blueprint\Property|\OmrGz\MigrationsGenerator\Migration\Enum\Space>
      */
     public function getLines(): array
     {

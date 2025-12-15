@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Support;
+namespace OmrGz\MigrationsGenerator\Support;
 
 class Regex
 {

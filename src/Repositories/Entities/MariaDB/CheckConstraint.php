@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Repositories\Entities\MariaDB;
+namespace OmrGz\MigrationsGenerator\Repositories\Entities\MariaDB;
 
 use Illuminate\Support\Collection;
 use stdClass;

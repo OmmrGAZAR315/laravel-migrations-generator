@@ -58,5 +58,5 @@ $app->withFacades();
 Add following line into the `Register Service Providers` section.
 
 ```php
-$app->register(\KitLoong\MigrationsGenerator\MigrationsGeneratorServiceProvider::class);
+$app->register(\OmrGz\MigrationsGenerator\MigrationsGeneratorServiceProvider::class);
 ```

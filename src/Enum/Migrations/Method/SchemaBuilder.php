@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Enum\Migrations\Method;
+namespace OmrGz\MigrationsGenerator\Enum\Migrations\Method;
 
 /**
  * Preserved method names for migration files by the framework.

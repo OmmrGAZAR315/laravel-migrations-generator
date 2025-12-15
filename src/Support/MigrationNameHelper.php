@@ -1,9 +1,9 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Support;
+namespace OmrGz\MigrationsGenerator\Support;
 
 use Illuminate\Support\Str;
-use KitLoong\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Setting;
 
 class MigrationNameHelper
 {

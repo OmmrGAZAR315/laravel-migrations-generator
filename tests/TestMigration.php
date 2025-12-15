@@ -1,9 +1,9 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests;
+namespace OmrGz\MigrationsGenerator\Tests;
 
 use Illuminate\Database\Migrations\Migration;
-use KitLoong\MigrationsGenerator\Support\AssetNameQuote;
+use OmrGz\MigrationsGenerator\Support\AssetNameQuote;
 
 abstract class TestMigration extends Migration
 {

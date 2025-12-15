@@ -1,10 +1,10 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\MariaDB;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\MariaDB;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-use KitLoong\MigrationsGenerator\Tests\Feature\FeatureTestCase;
+use OmrGz\MigrationsGenerator\Tests\Feature\FeatureTestCase;
 use PDO;
 
 abstract class MariaDBTestCase extends FeatureTestCase

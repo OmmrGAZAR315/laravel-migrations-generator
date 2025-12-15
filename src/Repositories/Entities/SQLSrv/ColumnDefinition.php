@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Repositories\Entities\SQLSrv;
+namespace OmrGz\MigrationsGenerator\Repositories\Entities\SQLSrv;
 
 use Illuminate\Support\Collection;
 use stdClass;

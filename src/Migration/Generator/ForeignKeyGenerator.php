@@ -1,12 +1,12 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Generator;
+namespace OmrGz\MigrationsGenerator\Migration\Generator;
 
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\Foreign;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Method;
-use KitLoong\MigrationsGenerator\Schema\Models\ForeignKey;
-use KitLoong\MigrationsGenerator\Setting;
-use KitLoong\MigrationsGenerator\Support\TableName;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\Foreign;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Method;
+use OmrGz\MigrationsGenerator\Schema\Models\ForeignKey;
+use OmrGz\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Support\TableName;
 
 class ForeignKeyGenerator
 {

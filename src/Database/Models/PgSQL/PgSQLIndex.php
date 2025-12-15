@@ -1,11 +1,11 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\PgSQL;
+namespace OmrGz\MigrationsGenerator\Database\Models\PgSQL;
 
-use KitLoong\MigrationsGenerator\Database\Models\Blueprint;
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseIndex;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\IndexType;
-use KitLoong\MigrationsGenerator\Support\TableName;
+use OmrGz\MigrationsGenerator\Database\Models\Blueprint;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseIndex;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\IndexType;
+use OmrGz\MigrationsGenerator\Support\TableName;
 
 class PgSQLIndex extends DatabaseIndex
 {

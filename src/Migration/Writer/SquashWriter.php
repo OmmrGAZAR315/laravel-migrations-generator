@@ -1,13 +1,13 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Writer;
+namespace OmrGz\MigrationsGenerator\Migration\Writer;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\WritableBlueprint;
-use KitLoong\MigrationsGenerator\Migration\Enum\Space;
-use KitLoong\MigrationsGenerator\Support\MigrationNameHelper;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\WritableBlueprint;
+use OmrGz\MigrationsGenerator\Migration\Enum\Space;
+use OmrGz\MigrationsGenerator\Support\MigrationNameHelper;
 
 class SquashWriter
 {
@@ -20,8 +20,8 @@ class SquashWriter
      * Append new content into `up`.
      * Prepend new content into `down`.
      *
-     * @param  \Illuminate\Support\Collection<int, covariant \KitLoong\MigrationsGenerator\Migration\Blueprint\WritableBlueprint>  $upBlueprints
-     * @param  \Illuminate\Support\Collection<int, covariant \KitLoong\MigrationsGenerator\Migration\Blueprint\WritableBlueprint>  $downBlueprints
+     * @param  \Illuminate\Support\Collection<int, covariant \OmrGz\MigrationsGenerator\Migration\Blueprint\WritableBlueprint>  $upBlueprints
+     * @param  \Illuminate\Support\Collection<int, covariant \OmrGz\MigrationsGenerator\Migration\Blueprint\WritableBlueprint>  $downBlueprints
      */
     public function writeToTemp(Collection $upBlueprints, Collection $downBlueprints): void
     {

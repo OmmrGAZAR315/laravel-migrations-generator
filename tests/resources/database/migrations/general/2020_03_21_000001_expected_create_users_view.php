@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\DB;
-use KitLoong\MigrationsGenerator\Tests\TestMigration;
+use OmrGz\MigrationsGenerator\Tests\TestMigration;
 
 return new class extends TestMigration
 {

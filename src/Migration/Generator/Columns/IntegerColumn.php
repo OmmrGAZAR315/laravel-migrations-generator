@@ -1,10 +1,10 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Generator\Columns;
+namespace OmrGz\MigrationsGenerator\Migration\Generator\Columns;
 
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Method;
-use KitLoong\MigrationsGenerator\Schema\Models\Column;
-use KitLoong\MigrationsGenerator\Schema\Models\Table;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Method;
+use OmrGz\MigrationsGenerator\Schema\Models\Column;
+use OmrGz\MigrationsGenerator\Schema\Models\Table;
 
 class IntegerColumn implements ColumnTypeGenerator
 {

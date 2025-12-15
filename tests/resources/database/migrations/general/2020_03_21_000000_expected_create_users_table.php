@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use KitLoong\MigrationsGenerator\Tests\TestMigration;
+use OmrGz\MigrationsGenerator\Tests\TestMigration;
 
 return new class extends TestMigration
 {

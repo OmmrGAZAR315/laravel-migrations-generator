@@ -1,13 +1,13 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Blueprint;
+namespace OmrGz\MigrationsGenerator\Migration\Blueprint;
 
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\SchemaBuilder;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Support\MethodStringHelper;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Support\Stringable;
-use KitLoong\MigrationsGenerator\Migration\Enum\Space;
-use KitLoong\MigrationsGenerator\Setting;
-use KitLoong\MigrationsGenerator\Support\TableName;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\SchemaBuilder;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Support\MethodStringHelper;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Support\Stringable;
+use OmrGz\MigrationsGenerator\Migration\Enum\Space;
+use OmrGz\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Support\TableName;
 
 /**
  * Create migration lines with `Schema`.
@@ -48,7 +48,7 @@ class SchemaBlueprint implements WritableBlueprint
      * SchemaBlueprint constructor.
      *
      * @param  string  $table  Table name.
-     * @param  \KitLoong\MigrationsGenerator\Enum\Migrations\Method\SchemaBuilder  $schemaBuilder  SchemaBuilder name.
+     * @param  \OmrGz\MigrationsGenerator\Enum\Migrations\Method\SchemaBuilder  $schemaBuilder  SchemaBuilder name.
      */
     public function __construct(string $table, private readonly SchemaBuilder $schemaBuilder)
     {

@@ -1,9 +1,9 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Unit\Repositories\Entities;
+namespace OmrGz\MigrationsGenerator\Tests\Unit\Repositories\Entities;
 
-use KitLoong\MigrationsGenerator\Repositories\Entities\ProcedureDefinition;
-use KitLoong\MigrationsGenerator\Tests\TestCase;
+use OmrGz\MigrationsGenerator\Repositories\Entities\ProcedureDefinition;
+use OmrGz\MigrationsGenerator\Tests\TestCase;
 
 class ProcedureDefinitionTest extends TestCase
 {

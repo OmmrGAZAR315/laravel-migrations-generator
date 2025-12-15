@@ -1,12 +1,12 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature;
+namespace OmrGz\MigrationsGenerator\Tests\Feature;
 
 use Illuminate\Database\Migrations\MigrationRepositoryInterface;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
-use KitLoong\MigrationsGenerator\Tests\TestCase;
+use OmrGz\MigrationsGenerator\Tests\TestCase;
 
 abstract class FeatureTestCase extends TestCase
 {
@@ -107,7 +107,7 @@ abstract class FeatureTestCase extends TestCase
      * Generate migration files to $this->storageMigrations()
      *
      * @param  array<string, string|bool|int>  $options
-     * @see \KitLoong\MigrationsGenerator\Tests\Feature\FeatureTestCase::defineEnvironment()
+     * @see \OmrGz\MigrationsGenerator\Tests\Feature\FeatureTestCase::defineEnvironment()
      */
     protected function generateMigrations(array $options = []): void
     {

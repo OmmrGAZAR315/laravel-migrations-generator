@@ -1,10 +1,10 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Repositories;
+namespace OmrGz\MigrationsGenerator\Repositories;
 
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\DB;
-use KitLoong\MigrationsGenerator\Repositories\Entities\MariaDB\CheckConstraint;
+use OmrGz\MigrationsGenerator\Repositories\Entities\MariaDB\CheckConstraint;
 
 class MariaDBRepository extends Repository
 {

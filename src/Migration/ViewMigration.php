@@ -1,16 +1,16 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration;
+namespace OmrGz\MigrationsGenerator\Migration;
 
 use Illuminate\Support\Collection;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\DBStatementBlueprint;
-use KitLoong\MigrationsGenerator\Migration\Enum\MigrationFileType;
-use KitLoong\MigrationsGenerator\Migration\Writer\MigrationWriter;
-use KitLoong\MigrationsGenerator\Migration\Writer\SquashWriter;
-use KitLoong\MigrationsGenerator\Schema\Models\View;
-use KitLoong\MigrationsGenerator\Setting;
-use KitLoong\MigrationsGenerator\Support\MigrationNameHelper;
-use KitLoong\MigrationsGenerator\Support\TableName;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\DBStatementBlueprint;
+use OmrGz\MigrationsGenerator\Migration\Enum\MigrationFileType;
+use OmrGz\MigrationsGenerator\Migration\Writer\MigrationWriter;
+use OmrGz\MigrationsGenerator\Migration\Writer\SquashWriter;
+use OmrGz\MigrationsGenerator\Schema\Models\View;
+use OmrGz\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Support\MigrationNameHelper;
+use OmrGz\MigrationsGenerator\Support\TableName;
 
 class ViewMigration
 {

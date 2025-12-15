@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Repositories\Entities;
+namespace OmrGz\MigrationsGenerator\Repositories\Entities;
 
 class ProcedureDefinition
 {

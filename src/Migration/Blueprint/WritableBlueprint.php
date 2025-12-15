@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Blueprint;
+namespace OmrGz\MigrationsGenerator\Migration\Blueprint;
 
 interface WritableBlueprint
 {

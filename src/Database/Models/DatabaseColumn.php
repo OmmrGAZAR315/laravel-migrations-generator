@@ -1,13 +1,13 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models;
+namespace OmrGz\MigrationsGenerator\Database\Models;
 
-use KitLoong\MigrationsGenerator\Enum\Migrations\ColumnName;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
-use KitLoong\MigrationsGenerator\Schema\Models\Column;
+use OmrGz\MigrationsGenerator\Enum\Migrations\ColumnName;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Schema\Models\Column;
 
 /**
- * @phpstan-import-type SchemaColumn from \KitLoong\MigrationsGenerator\Database\DatabaseSchema
+ * @phpstan-import-type SchemaColumn from \OmrGz\MigrationsGenerator\Database\DatabaseSchema
  */
 abstract class DatabaseColumn implements Column
 {

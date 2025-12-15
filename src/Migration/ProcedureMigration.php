@@ -1,15 +1,15 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration;
+namespace OmrGz\MigrationsGenerator\Migration;
 
 use Illuminate\Support\Collection;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\DBUnpreparedBlueprint;
-use KitLoong\MigrationsGenerator\Migration\Enum\MigrationFileType;
-use KitLoong\MigrationsGenerator\Migration\Writer\MigrationWriter;
-use KitLoong\MigrationsGenerator\Migration\Writer\SquashWriter;
-use KitLoong\MigrationsGenerator\Schema\Models\Procedure;
-use KitLoong\MigrationsGenerator\Setting;
-use KitLoong\MigrationsGenerator\Support\MigrationNameHelper;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\DBUnpreparedBlueprint;
+use OmrGz\MigrationsGenerator\Migration\Enum\MigrationFileType;
+use OmrGz\MigrationsGenerator\Migration\Writer\MigrationWriter;
+use OmrGz\MigrationsGenerator\Migration\Writer\SquashWriter;
+use OmrGz\MigrationsGenerator\Schema\Models\Procedure;
+use OmrGz\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Support\MigrationNameHelper;
 
 class ProcedureMigration
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Generator\Modifiers;
+namespace OmrGz\MigrationsGenerator\Migration\Generator\Modifiers;
 
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnModifier;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Method;
-use KitLoong\MigrationsGenerator\Schema\Models\Column;
-use KitLoong\MigrationsGenerator\Schema\Models\Table;
-use KitLoong\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnModifier;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Method;
+use OmrGz\MigrationsGenerator\Schema\Models\Column;
+use OmrGz\MigrationsGenerator\Schema\Models\Table;
+use OmrGz\MigrationsGenerator\Setting;
 
 class CollationModifier implements Modifier
 {

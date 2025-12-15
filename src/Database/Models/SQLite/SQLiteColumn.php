@@ -1,12 +1,12 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\SQLite;
+namespace OmrGz\MigrationsGenerator\Database\Models\SQLite;
 
 use Illuminate\Support\Str;
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseColumn;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
-use KitLoong\MigrationsGenerator\Repositories\SQLiteRepository;
-use KitLoong\MigrationsGenerator\Support\Regex;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseColumn;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Repositories\SQLiteRepository;
+use OmrGz\MigrationsGenerator\Support\Regex;
 
 class SQLiteColumn extends DatabaseColumn
 {

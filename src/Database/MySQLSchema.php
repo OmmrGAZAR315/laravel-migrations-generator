@@ -1,17 +1,17 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database;
+namespace OmrGz\MigrationsGenerator\Database;
 
 use Illuminate\Support\Collection;
-use KitLoong\MigrationsGenerator\Database\Models\MySQL\MySQLForeignKey;
-use KitLoong\MigrationsGenerator\Database\Models\MySQL\MySQLProcedure;
-use KitLoong\MigrationsGenerator\Database\Models\MySQL\MySQLTable;
-use KitLoong\MigrationsGenerator\Database\Models\MySQL\MySQLView;
-use KitLoong\MigrationsGenerator\Repositories\Entities\ProcedureDefinition;
-use KitLoong\MigrationsGenerator\Repositories\MySQLRepository;
-use KitLoong\MigrationsGenerator\Schema\Models\Table;
-use KitLoong\MigrationsGenerator\Schema\Models\View;
-use KitLoong\MigrationsGenerator\Schema\MySQLSchema as MySQLSchemaInterface;
+use OmrGz\MigrationsGenerator\Database\Models\MySQL\MySQLForeignKey;
+use OmrGz\MigrationsGenerator\Database\Models\MySQL\MySQLProcedure;
+use OmrGz\MigrationsGenerator\Database\Models\MySQL\MySQLTable;
+use OmrGz\MigrationsGenerator\Database\Models\MySQL\MySQLView;
+use OmrGz\MigrationsGenerator\Repositories\Entities\ProcedureDefinition;
+use OmrGz\MigrationsGenerator\Repositories\MySQLRepository;
+use OmrGz\MigrationsGenerator\Schema\Models\Table;
+use OmrGz\MigrationsGenerator\Schema\Models\View;
+use OmrGz\MigrationsGenerator\Schema\MySQLSchema as MySQLSchemaInterface;
 
 class MySQLSchema extends DatabaseSchema implements MySQLSchemaInterface
 {

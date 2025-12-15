@@ -1,10 +1,10 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Blueprint;
+namespace OmrGz\MigrationsGenerator\Migration\Blueprint;
 
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\DBBuilder;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Support\MethodStringHelper;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Support\Stringable;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\DBBuilder;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Support\MethodStringHelper;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Support\Stringable;
 
 /**
  * Create migration lines with `DB::statement`.

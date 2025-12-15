@@ -1,14 +1,14 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Writer;
+namespace OmrGz\MigrationsGenerator\Migration\Writer;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Str;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\WritableBlueprint;
-use KitLoong\MigrationsGenerator\Migration\Enum\MigrationFileType;
-use KitLoong\MigrationsGenerator\Migration\Enum\Space;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\WritableBlueprint;
+use OmrGz\MigrationsGenerator\Migration\Enum\MigrationFileType;
+use OmrGz\MigrationsGenerator\Migration\Enum\Space;
 
 class MigrationWriter
 {
@@ -21,8 +21,8 @@ class MigrationWriter
      *
      * @param  string  $path  Migration file destination path.
      * @param  string  $stubPath  Migration stub file path.
-     * @param  \Illuminate\Support\Collection<int, covariant \KitLoong\MigrationsGenerator\Migration\Blueprint\WritableBlueprint>  $up  Blueprint of migration `up`.
-     * @param  \Illuminate\Support\Collection<int, covariant \KitLoong\MigrationsGenerator\Migration\Blueprint\WritableBlueprint>  $down  Blueprint of migration `down`.
+     * @param  \Illuminate\Support\Collection<int, covariant \OmrGz\MigrationsGenerator\Migration\Blueprint\WritableBlueprint>  $up  Blueprint of migration `up`.
+     * @param  \Illuminate\Support\Collection<int, covariant \OmrGz\MigrationsGenerator\Migration\Blueprint\WritableBlueprint>  $down  Blueprint of migration `down`.
      */
     public function writeTo(
         string $path,
@@ -95,7 +95,7 @@ class MigrationWriter
     /**
      * Convert collection of blueprints to string and prettify and tabular.
      *
-     * @param  \Illuminate\Support\Collection<int, covariant \KitLoong\MigrationsGenerator\Migration\Blueprint\WritableBlueprint>  $blueprints
+     * @param  \Illuminate\Support\Collection<int, covariant \OmrGz\MigrationsGenerator\Migration\Blueprint\WritableBlueprint>  $blueprints
      */
     private function prettifyToString(Collection $blueprints): string
     {

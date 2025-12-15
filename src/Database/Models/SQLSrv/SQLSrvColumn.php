@@ -1,10 +1,10 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\SQLSrv;
+namespace OmrGz\MigrationsGenerator\Database\Models\SQLSrv;
 
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseColumn;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
-use KitLoong\MigrationsGenerator\Repositories\SQLSrvRepository;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseColumn;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Repositories\SQLSrvRepository;
 
 class SQLSrvColumn extends DatabaseColumn
 {

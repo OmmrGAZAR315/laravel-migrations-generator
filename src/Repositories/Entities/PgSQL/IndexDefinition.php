@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Repositories\Entities\PgSQL;
+namespace OmrGz\MigrationsGenerator\Repositories\Entities\PgSQL;
 
 class IndexDefinition
 {

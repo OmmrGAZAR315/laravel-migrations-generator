@@ -1,20 +1,20 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Generator;
+namespace OmrGz\MigrationsGenerator\Migration\Generator;
 
 use Illuminate\Support\Collection;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
-use KitLoong\MigrationsGenerator\Migration\Blueprint\Method;
-use KitLoong\MigrationsGenerator\Migration\Generator\Modifiers\CharsetModifier;
-use KitLoong\MigrationsGenerator\Migration\Generator\Modifiers\CollationModifier;
-use KitLoong\MigrationsGenerator\Migration\Generator\Modifiers\CommentModifier;
-use KitLoong\MigrationsGenerator\Migration\Generator\Modifiers\DefaultModifier;
-use KitLoong\MigrationsGenerator\Migration\Generator\Modifiers\IndexModifier;
-use KitLoong\MigrationsGenerator\Migration\Generator\Modifiers\NullableModifier;
-use KitLoong\MigrationsGenerator\Migration\Generator\Modifiers\StoredAsModifier;
-use KitLoong\MigrationsGenerator\Migration\Generator\Modifiers\VirtualAsModifier;
-use KitLoong\MigrationsGenerator\Schema\Models\Column;
-use KitLoong\MigrationsGenerator\Schema\Models\Table;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Migration\Blueprint\Method;
+use OmrGz\MigrationsGenerator\Migration\Generator\Modifiers\CharsetModifier;
+use OmrGz\MigrationsGenerator\Migration\Generator\Modifiers\CollationModifier;
+use OmrGz\MigrationsGenerator\Migration\Generator\Modifiers\CommentModifier;
+use OmrGz\MigrationsGenerator\Migration\Generator\Modifiers\DefaultModifier;
+use OmrGz\MigrationsGenerator\Migration\Generator\Modifiers\IndexModifier;
+use OmrGz\MigrationsGenerator\Migration\Generator\Modifiers\NullableModifier;
+use OmrGz\MigrationsGenerator\Migration\Generator\Modifiers\StoredAsModifier;
+use OmrGz\MigrationsGenerator\Migration\Generator\Modifiers\VirtualAsModifier;
+use OmrGz\MigrationsGenerator\Schema\Models\Column;
+use OmrGz\MigrationsGenerator\Schema\Models\Table;
 
 class ColumnGenerator
 {
@@ -31,7 +31,7 @@ class ColumnGenerator
     }
 
     /**
-     * @param  \Illuminate\Support\Collection<string, \KitLoong\MigrationsGenerator\Schema\Models\Index>  $chainableIndexes
+     * @param  \Illuminate\Support\Collection<string, \OmrGz\MigrationsGenerator\Schema\Models\Index>  $chainableIndexes
      */
     public function generate(Table $table, Column $column, Collection $chainableIndexes): Method
     {
@@ -51,7 +51,7 @@ class ColumnGenerator
 
     private function createMethodFromColumn(Table $table, Column $column): Method
     {
-        /** @var \KitLoong\MigrationsGenerator\Migration\Generator\Columns\ColumnTypeGenerator $generator */
+        /** @var \OmrGz\MigrationsGenerator\Migration\Generator\Columns\ColumnTypeGenerator $generator */
         $generator = app(ColumnType::class . '\\' . $column->getType()->name);
         return $generator->generate($table, $column);
     }

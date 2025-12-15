@@ -1,11 +1,11 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Blueprint\Support;
+namespace OmrGz\MigrationsGenerator\Migration\Blueprint\Support;
 
 use Illuminate\Support\Facades\DB;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\DBBuilder;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\SchemaBuilder;
-use KitLoong\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\DBBuilder;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\SchemaBuilder;
+use OmrGz\MigrationsGenerator\Setting;
 
 trait MethodStringHelper
 {

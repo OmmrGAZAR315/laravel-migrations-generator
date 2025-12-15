@@ -1,8 +1,8 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\PgSQL;
+namespace OmrGz\MigrationsGenerator\Database\Models\PgSQL;
 
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseForeignKey;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseForeignKey;
 
 class PgSQLForeignKey extends DatabaseForeignKey
 {

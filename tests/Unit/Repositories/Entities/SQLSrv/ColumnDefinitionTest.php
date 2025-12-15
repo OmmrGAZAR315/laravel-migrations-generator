@@ -1,9 +1,9 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Unit\Repositories\Entities\SQLSrv;
+namespace OmrGz\MigrationsGenerator\Tests\Unit\Repositories\Entities\SQLSrv;
 
-use KitLoong\MigrationsGenerator\Repositories\Entities\SQLSrv\ColumnDefinition;
-use KitLoong\MigrationsGenerator\Tests\TestCase;
+use OmrGz\MigrationsGenerator\Repositories\Entities\SQLSrv\ColumnDefinition;
+use OmrGz\MigrationsGenerator\Tests\TestCase;
 
 class ColumnDefinitionTest extends TestCase
 {

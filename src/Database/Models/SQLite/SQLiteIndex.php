@@ -1,9 +1,9 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\SQLite;
+namespace OmrGz\MigrationsGenerator\Database\Models\SQLite;
 
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseIndex;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\IndexType;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseIndex;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\IndexType;
 
 class SQLiteIndex extends DatabaseIndex
 {

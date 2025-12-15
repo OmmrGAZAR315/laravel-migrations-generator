@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Schema\Models;
+namespace OmrGz\MigrationsGenerator\Schema\Models;
 
 use Illuminate\Support\Collection;
 
@@ -19,21 +19,21 @@ interface Table extends Model
     /**
      * Get a list of columns.
      *
-     * @return \Illuminate\Support\Collection<int, \KitLoong\MigrationsGenerator\Schema\Models\Column>
+     * @return \Illuminate\Support\Collection<int, \OmrGz\MigrationsGenerator\Schema\Models\Column>
      */
     public function getColumns(): Collection;
 
     /**
      * Get a list of user-defined type columns.
      *
-     * @return \Illuminate\Support\Collection<int, \KitLoong\MigrationsGenerator\Schema\Models\UDTColumn>
+     * @return \Illuminate\Support\Collection<int, \OmrGz\MigrationsGenerator\Schema\Models\UDTColumn>
      */
     public function getUdtColumns(): Collection;
 
     /**
      * Get a list of indexes.
      *
-     * @return \Illuminate\Support\Collection<int, \KitLoong\MigrationsGenerator\Schema\Models\Index>
+     * @return \Illuminate\Support\Collection<int, \OmrGz\MigrationsGenerator\Schema\Models\Index>
      */
     public function getIndexes(): Collection;
 

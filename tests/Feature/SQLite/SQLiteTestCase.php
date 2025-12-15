@@ -1,10 +1,10 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\SQLite;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\SQLite;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-use KitLoong\MigrationsGenerator\Tests\Feature\FeatureTestCase;
+use OmrGz\MigrationsGenerator\Tests\Feature\FeatureTestCase;
 
 abstract class SQLiteTestCase extends FeatureTestCase
 {

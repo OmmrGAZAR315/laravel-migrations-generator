@@ -1,8 +1,8 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Schema\Models;
+namespace OmrGz\MigrationsGenerator\Schema\Models;
 
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
 
 /**
  * Table column. Column type supported by the framework.

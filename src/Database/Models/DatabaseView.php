@@ -1,12 +1,12 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models;
+namespace OmrGz\MigrationsGenerator\Database\Models;
 
-use KitLoong\MigrationsGenerator\Schema\Models\View;
-use KitLoong\MigrationsGenerator\Support\AssetNameQuote;
+use OmrGz\MigrationsGenerator\Schema\Models\View;
+use OmrGz\MigrationsGenerator\Support\AssetNameQuote;
 
 /**
- * @phpstan-import-type SchemaView from \KitLoong\MigrationsGenerator\Database\DatabaseSchema
+ * @phpstan-import-type SchemaView from \OmrGz\MigrationsGenerator\Database\DatabaseSchema
  */
 abstract class DatabaseView implements View
 {

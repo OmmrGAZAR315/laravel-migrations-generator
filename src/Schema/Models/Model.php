@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Schema\Models;
+namespace OmrGz\MigrationsGenerator\Schema\Models;
 
 interface Model
 {

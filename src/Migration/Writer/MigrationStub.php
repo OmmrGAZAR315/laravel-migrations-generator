@@ -1,6 +1,6 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Migration\Writer;
+namespace OmrGz\MigrationsGenerator\Migration\Writer;
 
 use Illuminate\Support\Facades\File;
 

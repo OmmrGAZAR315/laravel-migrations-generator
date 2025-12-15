@@ -1,15 +1,15 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\MySQL57;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\MySQL57;
 
 use Illuminate\Database\Migrations\MigrationRepositoryInterface;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
-use KitLoong\MigrationsGenerator\Schema\Models\ForeignKey;
-use KitLoong\MigrationsGenerator\Schema\Models\Index;
-use KitLoong\MigrationsGenerator\Schema\MySQLSchema;
+use OmrGz\MigrationsGenerator\Schema\Models\ForeignKey;
+use OmrGz\MigrationsGenerator\Schema\Models\Index;
+use OmrGz\MigrationsGenerator\Schema\MySQLSchema;
 use Throwable;
 
 class CommandTest extends MySQL57TestCase

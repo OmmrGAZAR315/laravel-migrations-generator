@@ -1,14 +1,14 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\MySQL;
+namespace OmrGz\MigrationsGenerator\Database\Models\MySQL;
 
-use KitLoong\MigrationsGenerator\Database\DatabaseColumnType;
-use KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
+use OmrGz\MigrationsGenerator\Database\DatabaseColumnType;
+use OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType;
 
 class MySQLColumnType extends DatabaseColumnType
 {
     /**
-     * @var array<string, \KitLoong\MigrationsGenerator\Enum\Migrations\Method\ColumnType>
+     * @var array<string, \OmrGz\MigrationsGenerator\Enum\Migrations\Method\ColumnType>
      */
     protected static array $map = [
         'bigint'             => ColumnType::BIG_INTEGER,

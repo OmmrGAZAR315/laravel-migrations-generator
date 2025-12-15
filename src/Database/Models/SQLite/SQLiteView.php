@@ -1,8 +1,8 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Database\Models\SQLite;
+namespace OmrGz\MigrationsGenerator\Database\Models\SQLite;
 
-use KitLoong\MigrationsGenerator\Database\Models\DatabaseView;
+use OmrGz\MigrationsGenerator\Database\Models\DatabaseView;
 
 class SQLiteView extends DatabaseView
 {

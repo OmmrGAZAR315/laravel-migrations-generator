@@ -1,10 +1,10 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests;
+namespace OmrGz\MigrationsGenerator\Tests;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use KitLoong\MigrationsGenerator\MigrationsGeneratorServiceProvider;
+use OmrGz\MigrationsGenerator\MigrationsGeneratorServiceProvider;
 use Orchestra\Testbench\TestCase as Testbench;
 use PHPUnit\Framework\Constraint\IsEqual;
 

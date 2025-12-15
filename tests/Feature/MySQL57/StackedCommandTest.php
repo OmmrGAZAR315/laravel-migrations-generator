@@ -1,12 +1,12 @@
 <?php
 
-namespace KitLoong\MigrationsGenerator\Tests\Feature\MySQL57;
+namespace OmrGz\MigrationsGenerator\Tests\Feature\MySQL57;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Str;
-use KitLoong\MigrationsGenerator\Setting;
+use OmrGz\MigrationsGenerator\Setting;
 use PDO;
 
 class StackedCommandTest extends MySQL57TestCase
